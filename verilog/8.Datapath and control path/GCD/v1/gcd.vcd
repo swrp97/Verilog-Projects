@@ -1,0 +1,420 @@
+$date
+	Wed May 10 00:33:01 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module GCD_test $end
+$var wire 1 ! sel_in $end
+$var wire 1 " sel2 $end
+$var wire 1 # sel1 $end
+$var wire 1 $ lt $end
+$var wire 1 % ldB $end
+$var wire 1 & ldA $end
+$var wire 1 ' gt $end
+$var wire 1 ( eq $end
+$var wire 1 ) done $end
+$var reg 1 * clk $end
+$var reg 16 + data_in [15:0] $end
+$var reg 1 , start $end
+$scope module CON $end
+$var wire 1 * clk $end
+$var wire 1 , start $end
+$var wire 1 $ lt $end
+$var wire 1 ' gt $end
+$var wire 1 ( eq $end
+$var reg 1 ) done $end
+$var reg 1 & ldA $end
+$var reg 1 % ldB $end
+$var reg 1 # sel1 $end
+$var reg 1 " sel2 $end
+$var reg 1 ! sel_in $end
+$var reg 3 - state [2:0] $end
+$upscope $end
+$scope module DP $end
+$var wire 1 * clk $end
+$var wire 16 . data_in [15:0] $end
+$var wire 1 & ldA $end
+$var wire 1 % ldB $end
+$var wire 1 # sel1 $end
+$var wire 1 " sel2 $end
+$var wire 1 ! sel_in $end
+$var wire 1 $ lt $end
+$var wire 1 ' gt $end
+$var wire 1 ( eq $end
+$var wire 16 / Y [15:0] $end
+$var wire 16 0 X [15:0] $end
+$var wire 16 1 Subout [15:0] $end
+$var wire 16 2 Bus [15:0] $end
+$var wire 16 3 Bout [15:0] $end
+$var wire 16 4 Aout [15:0] $end
+$scope module A $end
+$var wire 1 * clk $end
+$var wire 1 & load $end
+$var wire 16 5 data_in [15:0] $end
+$var reg 16 6 data_out [15:0] $end
+$upscope $end
+$scope module B $end
+$var wire 1 * clk $end
+$var wire 1 % load $end
+$var wire 16 7 data_in [15:0] $end
+$var reg 16 8 data_out [15:0] $end
+$upscope $end
+$scope module COMP $end
+$var wire 16 9 data1 [15:0] $end
+$var wire 16 : data2 [15:0] $end
+$var wire 1 $ lt $end
+$var wire 1 ' gt $end
+$var wire 1 ( eq $end
+$upscope $end
+$scope module MUX_in1 $end
+$var wire 16 ; in0 [15:0] $end
+$var wire 16 < in1 [15:0] $end
+$var wire 1 # sel $end
+$var wire 16 = out [15:0] $end
+$upscope $end
+$scope module MUX_in2 $end
+$var wire 16 > in0 [15:0] $end
+$var wire 16 ? in1 [15:0] $end
+$var wire 1 " sel $end
+$var wire 16 @ out [15:0] $end
+$upscope $end
+$scope module MUX_load $end
+$var wire 16 A in1 [15:0] $end
+$var wire 1 ! sel $end
+$var wire 16 B out [15:0] $end
+$var wire 16 C in0 [15:0] $end
+$upscope $end
+$scope module SB $end
+$var wire 16 D in1 [15:0] $end
+$var wire 16 E in2 [15:0] $end
+$var reg 16 F out [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+x,
+bx +
+0*
+x)
+x(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#3
+1,
+#5
+0)
+0%
+1&
+1!
+b0 -
+1*
+#10
+0*
+#12
+b10001111 2
+b10001111 5
+b10001111 7
+b10001111 B
+b10001111 +
+b10001111 .
+b10001111 A
+#15
+1%
+0&
+b1 -
+b10001111 4
+b10001111 6
+b10001111 9
+b10001111 ;
+b10001111 >
+1*
+#20
+0*
+#22
+b1001110 2
+b1001110 5
+b1001110 7
+b1001110 B
+b1001110 +
+b1001110 .
+b1001110 A
+#25
+b1000001 1
+b1000001 C
+b1000001 F
+b1000001 2
+b1000001 5
+b1000001 7
+b1000001 B
+b10001111 0
+b10001111 =
+b10001111 D
+b1001110 /
+b1001110 @
+b1001110 E
+0!
+1"
+0#
+0$
+1'
+0(
+b1001110 3
+b1001110 8
+b1001110 :
+b1001110 <
+b1001110 ?
+b10 -
+1*
+#26
+0%
+1&
+#30
+0*
+#35
+b1111111111110011 2
+b1111111111110011 5
+b1111111111110011 7
+b1111111111110011 B
+b1111111111110011 1
+b1111111111110011 C
+b1111111111110011 F
+b1000001 0
+b1000001 =
+b1000001 D
+1$
+0'
+b1000001 4
+b1000001 6
+b1000001 9
+b1000001 ;
+b1000001 >
+1*
+#37
+b1101 2
+b1101 5
+b1101 7
+b1101 B
+b1101 1
+b1101 C
+b1101 F
+b1000001 /
+b1000001 @
+b1000001 E
+b1001110 0
+b1001110 =
+b1001110 D
+0"
+1#
+b11 -
+#38
+1%
+0&
+#40
+0*
+#45
+b1111111111001100 2
+b1111111111001100 5
+b1111111111001100 7
+b1111111111001100 B
+b1111111111001100 1
+b1111111111001100 C
+b1111111111001100 F
+b1101 0
+b1101 =
+b1101 D
+0$
+1'
+b1101 3
+b1101 8
+b1101 :
+b1101 <
+b1101 ?
+1*
+#47
+b110100 2
+b110100 5
+b110100 7
+b110100 B
+b110100 1
+b110100 C
+b110100 F
+b1101 /
+b1101 @
+b1101 E
+b1000001 0
+b1000001 =
+b1000001 D
+1"
+0#
+b100 -
+#48
+0%
+1&
+#50
+0*
+#55
+b100111 2
+b100111 5
+b100111 7
+b100111 B
+b100111 1
+b100111 C
+b100111 F
+b110100 0
+b110100 =
+b110100 D
+b110100 4
+b110100 6
+b110100 9
+b110100 ;
+b110100 >
+1*
+#60
+0*
+#65
+b11010 2
+b11010 5
+b11010 7
+b11010 B
+b11010 1
+b11010 C
+b11010 F
+b100111 0
+b100111 =
+b100111 D
+b100111 4
+b100111 6
+b100111 9
+b100111 ;
+b100111 >
+1*
+#70
+0*
+#75
+b1101 2
+b1101 5
+b1101 7
+b1101 B
+b1101 1
+b1101 C
+b1101 F
+b11010 0
+b11010 =
+b11010 D
+b11010 4
+b11010 6
+b11010 9
+b11010 ;
+b11010 >
+1*
+#80
+0*
+#85
+b0 2
+b0 5
+b0 7
+b0 B
+b0 1
+b0 C
+b0 F
+b1101 0
+b1101 =
+b1101 D
+0'
+1(
+b1101 4
+b1101 6
+b1101 9
+b1101 ;
+b1101 >
+1*
+#87
+0&
+0"
+1)
+b101 -
+#90
+0*
+#95
+1*
+#100
+0*
+#105
+1*
+#110
+0*
+#115
+1*
+#120
+0*
+#125
+1*
+#130
+0*
+#135
+1*
+#140
+0*
+#145
+1*
+#150
+0*
+#155
+1*
+#160
+0*
+#165
+1*
+#170
+0*
+#175
+1*
+#180
+0*
+#185
+1*
+#190
+0*
+#195
+1*
+#200
+0*
+#203

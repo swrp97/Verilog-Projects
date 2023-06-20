@@ -1,0 +1,76 @@
+$date
+	Sun May  7 00:14:03 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module generate_test $end
+$var wire 16 ! out [15:0] $end
+$var reg 16 " x [15:0] $end
+$var reg 16 # y [15:0] $end
+$scope module G $end
+$var wire 16 $ a [15:0] $end
+$var wire 16 % b [15:0] $end
+$var wire 16 & f [15:0] $end
+$scope begin xorlp[0] $end
+$upscope $end
+$scope begin xorlp[1] $end
+$upscope $end
+$scope begin xorlp[2] $end
+$upscope $end
+$scope begin xorlp[3] $end
+$upscope $end
+$scope begin xorlp[4] $end
+$upscope $end
+$scope begin xorlp[5] $end
+$upscope $end
+$scope begin xorlp[6] $end
+$upscope $end
+$scope begin xorlp[7] $end
+$upscope $end
+$scope begin xorlp[8] $end
+$upscope $end
+$scope begin xorlp[9] $end
+$upscope $end
+$scope begin xorlp[10] $end
+$upscope $end
+$scope begin xorlp[11] $end
+$upscope $end
+$scope begin xorlp[12] $end
+$upscope $end
+$scope begin xorlp[13] $end
+$upscope $end
+$scope begin xorlp[14] $end
+$upscope $end
+$scope begin xorlp[15] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1010101001010101 &
+b11111111 %
+b1010101010101010 $
+b11111111 #
+b1010101010101010 "
+b1010101001010101 !
+$end
+#10
+b11110000111100 !
+b11110000111100 &
+b11001100110011 #
+b11001100110011 %
+b111100001111 "
+b111100001111 $
+#30
+b0 !
+b0 &
+b1111111111111111 #
+b1111111111111111 %
+b1111111111111111 "
+b1111111111111111 $
+#60

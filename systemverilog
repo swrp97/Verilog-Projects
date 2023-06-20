@@ -1,0 +1,30 @@
+1. What is SystemVerilog, and how is it different from Verilog?
+2. What is the difference between a parameter and a localparam in SystemVerilog?
+3. What is the difference between a wire and a reg in SystemVerilog?
+4. What is a virtual interface in SystemVerilog, and how is it used?
+5. What is the difference between an interface and a module in SystemVerilog?
+6. What is a package in SystemVerilog, and how is it used?
+7. What is the difference between a task and a function in SystemVerilog?
+8. What is a hierarchical design in SystemVerilog, and how is it implemented?
+9. Explain SystemVerilog testbench architecture?
+10. What is a constraint in SystemVerilog, and how is it used?
+11. What is a covergroup in SystemVerilog, and how is it used for functional coverage?
+12. What is the difference between a covergroup and a coverpoint in SystemVerilog?
+13. What is the difference between a mailbox and a semaphore in SystemVerilog?
+14. What is a queue in SystemVerilog, and how is it used?
+15. What is a bit vector in SystemVerilog, and how is it used?
+16. What is the difference between a bit vector and an integer in SystemVerilog?
+17. What is a parameterized class in SystemVerilog, and how is it used?
+18. What is the difference between a virtual interface and a parameterized class in SystemVerilog?
+19. What is the difference between a static and dynamic array in SystemVerilog?
+20. What is a mailbox in SystemVerilog, and how is it used for inter-process communication?
+21. What is a semaphore in SystemVerilog, and how is it used for synchronization?
+22. What is a DPI-C in SystemVerilog, and how is it used for interfacing with C/C++?
+23. What is a program block in SystemVerilog, and how is it used?
+24. What is a concurrent assertion in SystemVerilog, and how is it used for formal verification?
+25. What is a cover property in SystemVerilog, and how is it used for code coverage?
+26. What is the difference between a function and a task in SystemVerilog?
+27. Write a code for the priority encoder in SystemVerilog?
+28. What is a virtual interface, and how is it used for interfacing with multiple designs?
+29. What is a configuration in SystemVerilog, and how is it used?
+30. What is a program block in SystemVerilog, and how is it used for parallelism?

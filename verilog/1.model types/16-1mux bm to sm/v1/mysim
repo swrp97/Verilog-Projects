@@ -1,0 +1,52 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x55557bed3430 .scope module, "muxtest" "muxtest" 2 1;
+ .timescale 0 0;
+v0x55557bef8c80_0 .var "A", 15 0;
+v0x55557bef8d70_0 .net "F", 0 0, L_0x55557bef8f40;  1 drivers
+v0x55557bef8e40_0 .var "S", 3 0;
+S_0x55557bee6eb0 .scope module, "M" "mux16to1" 2 3, 3 1 0, S_0x55557bed3430;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "in";
+    .port_info 1 /INPUT 4 "sel";
+    .port_info 2 /OUTPUT 1 "out";
+v0x55557beafba0_0 .net "in", 15 0, v0x55557bef8c80_0;  1 drivers
+v0x55557bef8a80_0 .net "out", 0 0, L_0x55557bef8f40;  alias, 1 drivers
+v0x55557bef8b40_0 .net "sel", 3 0, v0x55557bef8e40_0;  1 drivers
+L_0x55557bef8f40 .part/v v0x55557bef8c80_0, v0x55557bef8e40_0, 1;
+    .scope S_0x55557bed3430;
+T_0 ;
+    %vpi_call 2 6 "$dumpfile", "mux16to1.vcd" {0 0 0};
+    %vpi_call 2 7 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x55557bed3430 {0 0 0};
+    %vpi_call 2 8 "$monitor", $time, "A=%h,S=%h,F=%b", v0x55557bef8c80_0, v0x55557bef8e40_0, v0x55557bef8d70_0 {0 0 0};
+    %delay 5, 0;
+    %pushi/vec4 16138, 0, 16;
+    %store/vec4 v0x55557bef8c80_0, 0, 16;
+    %pushi/vec4 0, 0, 4;
+    %store/vec4 v0x55557bef8e40_0, 0, 4;
+    %delay 5, 0;
+    %pushi/vec4 1, 0, 4;
+    %store/vec4 v0x55557bef8e40_0, 0, 4;
+    %delay 5, 0;
+    %pushi/vec4 6, 0, 4;
+    %store/vec4 v0x55557bef8e40_0, 0, 4;
+    %delay 5, 0;
+    %pushi/vec4 12, 0, 4;
+    %store/vec4 v0x55557bef8e40_0, 0, 4;
+    %delay 5, 0;
+    %vpi_call 2 13 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "muxtest.v";
+    "bmv1.v";

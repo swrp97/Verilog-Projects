@@ -1,0 +1,588 @@
+$date
+	Thu May 11 20:05:22 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module boothtest $end
+$var wire 1 ! sftQ $end
+$var wire 1 " sftA $end
+$var wire 1 # qm1 $end
+$var wire 1 $ q0 $end
+$var wire 1 % ldcnt $end
+$var wire 1 & ldQ $end
+$var wire 1 ' ldM $end
+$var wire 1 ( ldA $end
+$var wire 1 ) eqz $end
+$var wire 1 * done $end
+$var wire 1 + decr $end
+$var wire 1 , clrff $end
+$var wire 1 - clrQ $end
+$var wire 1 . clrA $end
+$var wire 1 / addsub $end
+$var reg 1 0 clk $end
+$var reg 16 1 data_in [15:0] $end
+$var reg 1 2 start $end
+$scope module CP $end
+$var wire 1 0 clk $end
+$var wire 1 2 start $end
+$var wire 1 # qm1 $end
+$var wire 1 $ q0 $end
+$var wire 1 ) eqz $end
+$var reg 1 / addsub $end
+$var reg 1 . clrA $end
+$var reg 1 - clrQ $end
+$var reg 1 , clrff $end
+$var reg 1 + decr $end
+$var reg 1 * done $end
+$var reg 1 ( ldA $end
+$var reg 1 ' ldM $end
+$var reg 1 & ldQ $end
+$var reg 1 % ldcnt $end
+$var reg 1 " sftA $end
+$var reg 1 ! sftQ $end
+$var reg 3 3 state [2:0] $end
+$upscope $end
+$scope module DP $end
+$var wire 16 4 M [15:0] $end
+$var wire 1 / addsub $end
+$var wire 1 0 clk $end
+$var wire 1 . clrA $end
+$var wire 1 - clrQ $end
+$var wire 1 , clrff $end
+$var wire 16 5 data_in [15:0] $end
+$var wire 1 + decr $end
+$var wire 1 ( ldA $end
+$var wire 1 ' ldM $end
+$var wire 1 & ldQ $end
+$var wire 1 % ldcnt $end
+$var wire 1 " sftA $end
+$var wire 1 ! sftQ $end
+$var wire 1 # qm1 $end
+$var wire 1 $ q0 $end
+$var wire 1 ) eqz $end
+$var wire 5 6 count [4:0] $end
+$var wire 16 7 Z [15:0] $end
+$var wire 16 8 Q [15:0] $end
+$var wire 16 9 A [15:0] $end
+$scope module AR $end
+$var wire 1 0 clk $end
+$var wire 1 . clr $end
+$var wire 1 ( ld $end
+$var wire 1 : s_in $end
+$var wire 1 " sft $end
+$var wire 16 ; data_in [15:0] $end
+$var reg 16 < data_out [15:0] $end
+$upscope $end
+$scope module AS $end
+$var wire 1 / addsub $end
+$var wire 16 = in1 [15:0] $end
+$var wire 16 > in2 [15:0] $end
+$var reg 16 ? out [15:0] $end
+$upscope $end
+$scope module CN $end
+$var wire 1 0 clk $end
+$var wire 1 + decr $end
+$var wire 1 % ldcnt $end
+$var reg 5 @ data_out [4:0] $end
+$upscope $end
+$scope module MR $end
+$var wire 1 0 clk $end
+$var wire 16 A data_in [15:0] $end
+$var wire 1 ' load $end
+$var reg 16 B data_out [15:0] $end
+$upscope $end
+$scope module QM1 $end
+$var wire 1 0 clk $end
+$var wire 1 , clr $end
+$var wire 1 C d $end
+$var reg 1 # q $end
+$upscope $end
+$scope module QR $end
+$var wire 1 0 clk $end
+$var wire 1 - clr $end
+$var wire 16 D data_in [15:0] $end
+$var wire 1 & ld $end
+$var wire 1 E s_in $end
+$var wire 1 ! sft $end
+$var reg 16 F data_out [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx F
+xE
+bx D
+xC
+bx B
+bz A
+bx @
+bx ?
+bz >
+bx =
+bx <
+bx ;
+x:
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bz 4
+bx 3
+x2
+bx 1
+00
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#3
+12
+#5
+0*
+0,
+0'
+0!
+0&
+0-
+0"
+0(
+0.
+b0 3
+10
+#10
+00
+#12
+b1000000000000000 1
+#15
+1'
+1%
+1,
+1.
+b1 3
+10
+#20
+00
+#22
+b111111111111111 1
+#25
+0E
+0:
+1&
+0'
+0%
+0,
+0.
+b0 9
+b0 <
+b0 =
+0#
+b111111111111111 5
+b111111111111111 D
+bz B
+0)
+b10000 6
+b10000 @
+b10 3
+10
+#30
+00
+#35
+1C
+1$
+x#
+b111111111111111 8
+b111111111111111 F
+10
+#37
+1+
+0&
+1!
+1"
+b101 3
+#40
+00
+#45
+b11111111111111 8
+b11111111111111 F
+1#
+b1111 6
+b1111 @
+10
+#50
+00
+#55
+b1110 6
+b1110 @
+b1111111111111 8
+b1111111111111 F
+10
+#60
+00
+#65
+b111111111111 8
+b111111111111 F
+b1101 6
+b1101 @
+10
+#70
+00
+#75
+b1100 6
+b1100 @
+b11111111111 8
+b11111111111 F
+10
+#80
+00
+#85
+b1111111111 8
+b1111111111 F
+b1011 6
+b1011 @
+10
+#90
+00
+#95
+b1010 6
+b1010 @
+b111111111 8
+b111111111 F
+10
+#100
+00
+#105
+b11111111 8
+b11111111 F
+b1001 6
+b1001 @
+10
+#110
+00
+#115
+b1000 6
+b1000 @
+b1111111 8
+b1111111 F
+10
+#120
+00
+#125
+b111111 8
+b111111 F
+b111 6
+b111 @
+10
+#130
+00
+#135
+b110 6
+b110 @
+b11111 8
+b11111 F
+10
+#140
+00
+#145
+b1111 8
+b1111 F
+b101 6
+b101 @
+10
+#150
+00
+#155
+b100 6
+b100 @
+b111 8
+b111 F
+10
+#160
+00
+#165
+b11 8
+b11 F
+b11 6
+b11 @
+10
+#170
+00
+#175
+b10 6
+b10 @
+b1 8
+b1 F
+10
+#180
+00
+#185
+0C
+0$
+b0 8
+b0 F
+b1 6
+b1 @
+10
+#187
+0+
+0!
+0"
+1/
+1(
+b11 3
+#190
+00
+#195
+xE
+x:
+1+
+0(
+1!
+1"
+0#
+bx 9
+bx <
+bx =
+b101 3
+10
+#200
+00
+#205
+bx000000000000000 8
+bx000000000000000 F
+1)
+b0 6
+b0 @
+10
+#207
+1*
+b110 3
+#210
+00
+#215
+0)
+b11111 6
+b11111 @
+bx00000000000000 8
+bx00000000000000 F
+10
+#220
+00
+#225
+bx0000000000000 8
+bx0000000000000 F
+b11110 6
+b11110 @
+10
+#230
+00
+#235
+b11101 6
+b11101 @
+bx000000000000 8
+bx000000000000 F
+10
+#240
+00
+#245
+bx00000000000 8
+bx00000000000 F
+b11100 6
+b11100 @
+10
+#250
+00
+#255
+b11011 6
+b11011 @
+bx0000000000 8
+bx0000000000 F
+10
+#260
+00
+#265
+bx000000000 8
+bx000000000 F
+b11010 6
+b11010 @
+10
+#270
+00
+#275
+b11001 6
+b11001 @
+bx00000000 8
+bx00000000 F
+10
+#280
+00
+#285
+bx0000000 8
+bx0000000 F
+b11000 6
+b11000 @
+10
+#290
+00
+#295
+b10111 6
+b10111 @
+bx000000 8
+bx000000 F
+10
+#300
+00
+#305
+bx00000 8
+bx00000 F
+b10110 6
+b10110 @
+10
+#310
+00
+#315
+b10101 6
+b10101 @
+bx0000 8
+bx0000 F
+10
+#320
+00
+#325
+bx000 8
+bx000 F
+b10100 6
+b10100 @
+10
+#330
+00
+#335
+b10011 6
+b10011 @
+bx00 8
+bx00 F
+10
+#340
+00
+#345
+bx0 8
+bx0 F
+b10010 6
+b10010 @
+10
+#350
+00
+#355
+xC
+x$
+b10001 6
+b10001 @
+bx 8
+bx F
+10
+#360
+00
+#365
+x#
+b10000 6
+b10000 @
+10
+#370
+00
+#375
+b1111 6
+b1111 @
+10
+#380
+00
+#385
+b1110 6
+b1110 @
+10
+#390
+00
+#395
+b1101 6
+b1101 @
+10
+#400
+00
+#405
+b1100 6
+b1100 @
+10
+#410
+00
+#415
+b1011 6
+b1011 @
+10
+#420
+00
+#425
+b1010 6
+b1010 @
+10
+#430
+00
+#435
+b1001 6
+b1001 @
+10
+#440
+00
+#445
+b1000 6
+b1000 @
+10
+#450
+00
+#455
+b111 6
+b111 @
+10
+#460
+00
+#465
+b110 6
+b110 @
+10
+#470
+00
+#475
+b101 6
+b101 @
+10
+#480
+00
+#485
+b100 6
+b100 @
+10
+#490
+00
+#495
+b11 6
+b11 @
+10
+#500
+00
+#503

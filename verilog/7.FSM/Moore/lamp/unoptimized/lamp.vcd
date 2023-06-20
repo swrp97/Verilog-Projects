@@ -1,0 +1,94 @@
+$date
+	Mon May  8 17:11:01 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testlamp $end
+$var wire 4 ! light [0:3] $end
+$var reg 1 " clk $end
+$scope module LAMP $end
+$var wire 1 " clock $end
+$var reg 4 # light [0:3] $end
+$var reg 2 $ state [0:1] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+bx #
+0"
+bx !
+$end
+#5
+b0 $
+b1000 !
+b1000 #
+1"
+#10
+0"
+#15
+b1 $
+1"
+#20
+0"
+#25
+b10 $
+b100 !
+b100 #
+1"
+#30
+0"
+#35
+b11 $
+b10 !
+b10 #
+1"
+#40
+0"
+#45
+b0 $
+b1 !
+b1 #
+1"
+#50
+0"
+#55
+b1 $
+b1000 !
+b1000 #
+1"
+#60
+0"
+#65
+b10 $
+b100 !
+b100 #
+1"
+#70
+0"
+#75
+b11 $
+b10 !
+b10 #
+1"
+#80
+0"
+#85
+b0 $
+b1 !
+b1 #
+1"
+#90
+0"
+#95
+b1 $
+b1000 !
+b1000 #
+1"
+#100
+0"
